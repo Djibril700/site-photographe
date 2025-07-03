@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1be657;
+    color: #333;
+  }
+  
+  header {
+    background-color: #861616;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .bio {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .bio img {
+    border-radius: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .galerie {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .galerie img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px gray;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 600px) {
+    .galerie img {
+      width: 100%;
+    }
+  
+    header, footer, nav {
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  
